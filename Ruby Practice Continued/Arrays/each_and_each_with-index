@@ -1,0 +1,9 @@
+# the each loop
+number =[1, 3, 5, 7]
+
+numbers.each { |n| puts n }
+
+#each with index
+animals = ["cat", "dog", "tiger"]
+
+animals.each_with_index { |animal, idx| puts "we have a #{animal} with index #{idx}" }
